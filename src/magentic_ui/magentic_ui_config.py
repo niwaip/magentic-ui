@@ -26,6 +26,7 @@ class ModelClientConfigs(BaseModel):
         "provider": "OpenAIChatCompletionClient",
         "config": {
             "model": "gpt-4.1-2025-04-14",
+            "base_url": None,  # Specify your OpenAI-compatible API base URL here e.g. http://localhost:8080/v1
         },
         "max_retries": 10,
     }
